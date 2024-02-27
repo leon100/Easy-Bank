@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hover-title:hover {
+    @apply bg-gradient-to-r from-lime-green to-bright-cyan bg-clip-text;
+    -webkit-text-fill-color: transparent;
+}
